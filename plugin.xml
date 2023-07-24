@@ -44,7 +44,37 @@
             </array>
         </config-file>
         
-        
+         <config-file target="*-Debug.plist" parent="com.apple.developer.in-app-payments">
+			<array>
+				<string>merchant.120800000272.seha</string>
+				<string>merchant.120800000282.seha</string>
+				<string>merchant.120800000283.seha</string>
+				<string>merchant.120800000284.seha</string>
+				<string>merchant.120800000285.seha</string>
+				<string>merchant.120800000286.seha</string>
+				<string>merchant.120800000287.seha</string>
+				<string>merchant.120800000288.seha</string>
+				<string>merchant.120800000289.seha</string>
+				<string>merchant.120800000290.seha</string>
+				<string>merchant.120800000291.seha</string>
+			</array>
+		</config-file>
+
+		<config-file target="*-Release.plist" parent="com.apple.developer.in-app-payments">
+			<array>
+				<string>merchant.120800000272.prd</string>
+				<string>merchant.120800000282.prd</string>
+				<string>merchant.120800000283.prd</string>
+				<string>merchant.120800000284.prd</string>
+				<string>merchant.120800000285.prd</string>
+				<string>merchant.120800000286.prd</string>
+				<string>merchant.120800000287.prd</string>
+				<string>merchant.120800000288.prd</string>
+				<string>merchant.120800000289.prd</string>
+				<string>merchant.120800000290.prd</string>
+				<string>merchant.120800000291.prd</string>
+			</array>
+		</config-file>
         
     </platform>
     
