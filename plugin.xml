@@ -33,18 +33,29 @@
         <!-- iOS9 whitelisting -->
         <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
             <array>
-                <string>twitter</string>
-                <string>fb</string>
-                <string>whatsapp</string>
-                <string>itms-apps</string>
-                <string>youtube</string>
-                <string>soundcloud</string>
-                <string>fb-messenger</string>
-                <string>instagram</string>
+                 <string>twitter</string>
+                 <string>fb</string>
+                 <string>whatsapp</string>
+                 <string>itms-apps</string>
+                 <string>youtube</string>
+                 <string>soundcloud</string>
+                 <string>fb-messenger</string>
+				 <string>instagram</string>
+                 <string>smartpass</string>
+				 <string>comgooglemaps</string>
+				 <string>maps</string>
+				 <string>uaepass</string>
+				 <string>uaepassqa</string>
             </array>
         </config-file>
-        
-         <config-file target="*-Debug.plist" parent="com.apple.developer.in-app-payments">
+		
+		<!-- iOS9 background process -->
+        <config-file target="*-Info.plist" parent="BGTaskSchedulerPermittedIdentifiers">
+            <array>
+                 <string>com.sehaiphoneipadapp01</string>
+            </array>
+        </config-file>
+        <config-file target="*-Debug.plist" parent="com.apple.developer.in-app-payments">
 			<array>
 				<string>merchant.120800000272.seha</string>
 				<string>merchant.120800000282.seha</string>
@@ -75,6 +86,7 @@
 				<string>merchant.120800000291.prd</string>
 			</array>
 		</config-file>
+        
         
     </platform>
     
